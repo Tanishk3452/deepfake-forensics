@@ -11,7 +11,7 @@ node_modules/
 dist/
 
 # ML models (DO NOT PUSH LARGE FILES)
-*.pth
+
 *.pt
 *.onnx
 
