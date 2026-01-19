@@ -1,0 +1,31 @@
+# FastAPI Backend
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# ML/AI Libraries
+opencv-python==4.8.1.78
+numpy==1.24.3
+pillow==10.1.0
+
+# Audio Processing
+librosa==0.10.1
+soundfile==0.12.1
+scipy==1.11.4
+
+# Metadata Extraction
+ffmpeg-python==0.2.0
+
+# Utilities
+pydantic==2.5.0
+python-dateutil==2.8.2
+numpy==1.26.4
+opencv-python==4.9.0.80
+moviepy==1.0.3
+librosa
+timm
+ffmpeg-python
+transformers
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2

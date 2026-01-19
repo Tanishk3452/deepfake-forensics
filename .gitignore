@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Node / React
+node_modules/
+dist/
+
+# ML models (DO NOT PUSH LARGE FILES)
+*.pth
+*.pt
+*.onnx
+
+# Media
+uploads/
+*.mp4
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db
