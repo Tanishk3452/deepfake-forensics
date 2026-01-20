@@ -55,11 +55,13 @@ HEATMAP_VIDEOS = {}
 
 
 MODEL_CHOICE = "vit"  # ← Change this based on test results
+AUDIO_MODEL_CHOICE = "melodymachine_v2" 
 
 # ===== Initialize detectors =====
 video_detector = VideoDeepfakeDetector(model_choice=MODEL_CHOICE)
 audio_detector = AudioDeepfakeDetector(
-    model_path="../ml_models/wav2vec2_audio.pth"
+    model_choice=AUDIO_MODEL_CHOICE,
+    invert_labels=True  # ← ADD THIS - fixes the swapped labels
 )
 metadata_analyzer = MetadataAnalyzer()
 explainability_gen = ExplainabilityGenerator()
