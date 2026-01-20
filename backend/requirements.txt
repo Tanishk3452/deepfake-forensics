@@ -5,7 +5,6 @@ python-multipart==0.0.6
 
 # ML/AI Libraries
 opencv-python==4.8.1.78
-numpy==1.24.3
 pillow==10.1.0
 
 # Audio Processing
@@ -20,7 +19,6 @@ ffmpeg-python==0.2.0
 pydantic==2.5.0
 python-dateutil==2.8.2
 numpy==1.26.4
-opencv-python==4.9.0.80
 moviepy==1.0.3
 librosa
 timm
