@@ -38,7 +38,7 @@ app = FastAPI(title="Deepfake Detector API", version="1.0.0")
 # CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=["https://deepfake-forensic.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
