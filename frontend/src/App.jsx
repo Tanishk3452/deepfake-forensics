@@ -16,7 +16,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 
-const API_BASE = "https://deepfake-forensics-5.onrender.com";
+const API_BASE = "http://localhost:8000";
 
 /* ------------------ UI Helpers ------------------ */
 
